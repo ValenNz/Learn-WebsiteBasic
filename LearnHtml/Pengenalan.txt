@@ -1,0 +1,52 @@
+                        PENGERTIAN HTML
+    
+    FRONT-END
+    - HTML : Hyper Text Markup Language (bahasa yang membangun website)
+    - HTML : sebagai pondasi / tembok
+    - CSS  : Sebagai warna atau hiasan
+    - JS   : Sebagai Fungsi 
+
+                          STUKTUR HTML
+    <!DOCTYPE html>
+    <html>
+
+        <head>
+            <title></title>   -> Bagian judul web (judul konten)
+        </head>
+
+        <body>
+            <h1></h1>         -> Bagian badan web (isi kontem) 
+        </body>
+
+    </html>
+
+                            PENJELASAN
+    
+  * Deklarasi tersebut <!DOCTYPE html>mendefinisikan bahwa dokumen ini adalah dokumen HTML5
+  * Elemen <html>adalah elemen root dari halaman HTML
+  * Elemen tersebut <head>berisi informasi meta tentang halaman HTML
+  * Elemen <title>menentukan judul untuk halaman HTML (yang ditampilkan di bilah judul browser atau di tab halaman)
+  * Elemen <body>mendefinisikan tubuh dokumen, dan merupakan wadah untuk semua konten yang terlihat, seperti judul, paragraf, gambar, hyperlink, tabel, daftar, dll.
+  * Elemen <h1>mendefinisikan heading besar
+  * Elemen <p>mendefinisikan paragraf    
+
+Catatan: Beberapa elemen HTML tidak memiliki konten (seperti elemen <br>). Elemen-elemen ini disebut elemen kosong. Elemen kosong tidak memiliki tag akhir!
+
+
+                Sejarah HTML
+    Sejak awal World Wide Web, ada banyak versi HTML:
+
+    Year	Version
+    1989	Tim Berners-Lee invented www
+    1991	Tim Berners-Lee invented HTML
+    1993	Dave Raggett drafted HTML+
+    1995	HTML Working Group defined HTML 2.0
+    1997	W3C Recommendation: HTML 3.2
+    1999	W3C Recommendation: HTML 4.01
+    2000	W3C Recommendation: XHTML 1.0
+    2008	WHATWG HTML5 First Public Draft
+    2012	WHATWG HTML5 Living Standard
+    2014	W3C Recommendation: HTML5
+    2016	W3C Candidate Recommendation: HTML 5.1
+    2017	W3C Recommendation: HTML5.1 2nd Edition
+    2017	W3C Recommendation: HTML5.2

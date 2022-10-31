@@ -1,0 +1,84 @@
+ /* Mewarnai bacground */
+ body{
+    background-color: gray;
+}
+
+/* SelectorClass */
+.color{
+   color:yellow
+}
+
+.underline{
+   text-decoration:underline;
+}
+
+.float-kanan{
+   float: right;
+}
+
+.float-kiri{        /* Peletakan elemen */
+   float: left;
+}
+
+.hapus-float{
+   clear: both;
+}
+
+.box{
+   background-color: lightblue;
+   height: 200px;
+   width: 200px;
+   margin: auto;  /* jarak antara elemen terhadap web*/
+   padding: 50px; /* Jarak antara teks ke margin (akan menambah ukuran)*/
+   border: 5px solid black; /* Garis tepi elemen*/
+   border-radius: 50px; /* Lengkungan pada sudut elemen*/
+}
+
+.box2{
+   background-color: lightgreen;
+   height: 200px;
+   width: 200px;
+}
+
+.border-underline{
+   border-bottom: 2px solid red;
+   width: 50px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Selector ID */
+#warna{
+   color: aqua;
+}
+
+#colorName {
+   height: 100px;
+   width:100px;
+   background-color: aqua;
+   position: relative;
+   left: 200px;
+}
+
+#hashCode{
+   height: 100px;
+   width:100px;
+   background-color: #5d48e8;
+   position: absolute;
+   left: 200px;
+}
+
+#RGB{
+   height: 100px;
+   width:100px;
+   background-color: rgb(148, 83, 83);
+   /* position: fixed; */
+   left: 100px;
+
+}
+
+#HSL{
+   height: 100px;
+   width:100px;
+   background-color: hsl(0, 100%, 50%);
+}
+

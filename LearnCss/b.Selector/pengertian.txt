@@ -1,0 +1,20 @@
+                    PERBEDAAN SELECTOR PADA CSS
+
+    - Elemen : Diaplikasikan kepada HTMl Elemen
+        contoh :
+        p{
+            color: orage;
+        }
+
+    - Class : Diaplikasikan kepada atribut class dan dapat dipanggil lebih dari sekali
+        contoh :
+        .class {
+            color: violet;
+        }
+    
+    - ID : Diaplikasikan untuk bagian yang spesifik dan hanya dipanggil sekali
+        contoh :
+        #id{
+            color: blue;
+        }
+

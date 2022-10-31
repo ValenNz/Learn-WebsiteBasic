@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Desxription for Website -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> UNPAS </title>
+</head>
+ 
+<body>
+        
+    <br>-------- PENULISAN TEXT ------------
+
+    <!-- Heading -->
+    <h1>Heading 1</h1>  
+    <h2>Heading 2</h2>  
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    
+    <!-- Paragraf -->
+    <p> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, placeat rerum tempore, consectetur suscipit, voluptatum nihil inventore fuga recusandae dolorum modi nesciunt earum deleniti. Nihil similique accusantium iste quasi assumenda!
+    </p>                         
+
+
+    <!--Bold, Italic, Underliine -->
+    <p>
+       <strong>Bold (Tebal)</strong> <br>
+       <em>Italic (Miring)</em> <br>
+      <ins>Underline (Garis Bawah)</ins> <br>
+    </p>
+
+
+
+    <br>-------- PENULISAN TEXT ------------
+    <!-- List
+            <li>...</li> : list 
+            <dt>...</dt> : Terminologi 
+            <dd>...</dd> : Description
+    -->
+
+        <!-- Ordered list (list urut)-->
+             <!-- type atributlist Ordered : 1, A,a,I,i -->
+        <ol type="1">             
+            <li>Bangun tidur</li>
+            <li>Sholat subuh</li>
+            <li>Mandi</li>
+            <li>Sarapan </li> 
+        </ol> 
+
+        <!-- Unordered list (   list tidak urut)-->
+              <!-- type atributlist Unordered : disc,square,circle -->
+        <ul type="square">
+            <li>Bangun tidur</li>
+            <li>Sholat subuh</li>
+            <li>Mandi</li>
+            <li>Sarapan </li> 
+        </ul> 
+
+    <!-- Definisi List-->
+    <dl>  
+        <dt>HTML</dt> 
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheet</dd>
+    </dl> 
+
+
+
+    <br>-------- PENULISAN LINK ------------
+
+    <!-- Hyper Link  -->
+        <!-- 
+        link berbeda halaman atau folder
+        <a></> : anchor 
+        <a href=""></a>
+
+        external link : https://github.com/ValenNz
+        internal link : menuju dalam satu folder/domain 
+        realitive url : menuju file yang folder/domain  berbeda
+        page anchor   : bagian tertentu dari sebuah halaman  (# dalam satu halaman )
+
+        Link berbeda tab
+        <a target=""></a>
+        value :
+            _self   : membuka link di halaman sama
+            _blank  : membuka di tab baru 
+            _parent :
+            _top    :
+        -->
+
+    <p>Klik <a href="https://github.com/">disini</a> untuk menuju external link</p>
+    <p>Klik <a href="internalLink.html">disini</a> untuk menuju internal link</p>
+    <p>Klik <a href="../RelativeURL/realitiveURL.html">disini</a> untuk menuju url link</p> <!-- ""../namaFolder/namafile.htmml"-->
+    <p>Klik <a href="internalLink.html" target="_blank">disini</a> untuk menuju internal link berbeda tab</p>
+
+    <br>Page anchor
+    <ul> 
+    <li><a href="#bagian1">Ke Bagian 1</a></li>
+    <li><a href="#bagian2">Ke Bagian 2</a></li>
+    <li><a href="#bagian3">Ke Bagian 3</a></li>
+    <li><a href="../RelativeURL/realitiveURL.html">Ke Bagian beda halaman dan folder</a></li>
+    </ul>
+
+    <h2 id="bagian1">Bagian 1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A libero odit voluptatem reiciendis sint expedita! At ea dolorum nobis est, asperiores temporibus enim corrupti unde sapiente aliquam nisi illum cum.</p>
+    <br><br><br><br><br><br><br><br>
+
+    <h2 id="bagian2">Bagian 2</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta voluptate sint architecto laboriosam blanditiis, ducimus temporibus, illum debitis adipisci maxime provident, officia autem quia harum amet deleniti! Eius, deleniti distinctio!</p>
+    <br><br><br><br><br><br><br>
+
+    <h2 id="bagian3">bagian 3</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum nemo doloremque alias in exercitationem sunt omnis accusamus voluptate numquam, vitae doloribus consectetur officia eaque similique corporis ipsam? Facere, dignissimos ab!</p>
+
+
+
+    <br>-------- PENULISAN GAMBAR ------------ <br>
+        <!-- Penulisan Image  -->
+        <!-- <img src=""> 
+            - internal resource : logo.png, bacgroung.jpg dll
+            - external resource : 
+
+          Atribute SRC :
+                - src    : source gambar (sumber)
+                - alt    : alternatife text (jika gambar error maka text akan tampil)
+                - title  : judul pada gambar (ketika kursor diatas gambar)
+            
+            <img widht="" height="">
+                - widht  : lebar gambar
+                - height : panjang gambar
+                            px (pixel)  :angka
+                            % (persent) : ukuran relative dengan halamanya 
+
+        -->
+
+        <!-- 1 -->
+    <img src="img/Chorizosalmon.jpg" title="Chorizosalmon.jpg" width="500">
+    <!-- 2 -->
+    <img src="img/Ayam panggang.jp" alt="Merupakan gambar ayam panggang"> <!-- alt jika gambar error-->
+
+        <!-- Menggabung gambar dan image-->
+    <a href="https://github.com/">
+        <img src="/img/PP.jpg" alt="PP github ***">
+    </a>
+
+
+
+    <br>-------- PENULISAN TABEL ------------
+    <!-- Pembuatan tabel -->
+        <!-- Struktur tabel 
+                baris       : samping
+                bawah       : kolom  
+                perpotongan : cell/data
+                Judul       : Header horizontal/vertikal
+                <tr>        : tabel row (baris) samping
+                <td>        : tabel data(kolom) bawah
+                <thead>     : Tabel Head
+                <Body>      : Body tabel
+                <th></th>   : Tabel Header
+            
+            Atribute tabel
+                <table atribute="value">
+                border      : Membuat pembatas(border)
+                cellspacing : Menambah jarak untuk cell
+                cellpadding : Menambah luas untuk cell
+                        MERGING
+                colspan     : Menggabungkan 2 cell horizontal (kolom)
+                rowspan     : Menggabungkan 2 cell vertical (baris)
+        -->
+
+        <!-- Tabe; simple -->
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>baris 1, kolom 1</td>
+                <td>baris 1, kolom 2</td>
+            </tr>
+            <tr>
+                <td>baris 2, kolom 1</td>
+                <td>baris 2, kolom 2</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- Table simple -->
+        <table border="1" cellspacing="5" cellpadding="5">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>kolom 1</th>
+                    <th>kolom 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Baris 1</th>
+                    <td>Baris 1, Kolom 1</td>
+                    <td>baris 1, Kolom 2</td>
+                </tr>
+                <tr>
+                    <th>Baris 2</th>
+                    <td>Baris 2, Kolom 1</td>
+                    <td>Baris 2, Kolom 2</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Penulisan Margin -->
+        <table border="1" cellcpacing="0" cellpadding="5">
+            <tr>
+                <td rowspan="3">rowspan = 3 </td>
+                <td colspan="2">colspan = 2</td>
+            </tr>
+            <tr >
+                <td>2,2</td>
+                <td>2,3</td>
+            </tr>
+            <tr>
+                <td>3,2</td>
+                <td>3,3</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- LATIHAN TABEL -->
+        <table border="1" cellspacing="0" cellpadding="5">
+            <tr>
+                <td>1,1</td>
+                <td>1,2</td>
+                <td>1,3</td>
+                <td>1,4</td>
+            </tr>
+            <tr>
+                <td>2,1</td>
+                <td colspan="2" rowspan="2"></td>
+                <td>2,4</td>
+            </tr>
+            <tr>
+                <td>3,1</td>
+                <td>3,4</td>
+            </tr>
+            <tr>
+                <td>4,1</td>
+                <td>4,2</td>
+                <td>4,3</td>
+                <td>4,4</td>
+            </tr>
+        </table>
+
+    <br>-------- PENULISAN FORM ------------
+    <!-- PENULISAN FORM -->
+    <!-- 
+        <labe> : memberitahu bahwa kita membuat label milik atribute input 
+        for : memberitahu label itu milik elemen siapa
+        id  : penanda (harus sam adengan for)
+
+    -->
+            <!-- Element  Form
+                    - input     : Memasukan inut user (kolom)
+                                    <input type="">
+                                        Atribute input :
+                                        - text
+                                        - password
+                                        - radio
+                                        - checkbox
+                                        - submit
+                                        - reset
+                                        - button
+
+                    - textarea  : Mengisi komentar/pesan
+                    - select    : membuat dropdown
+                    - button    : tombol
+                                    <button type=""></button>
+                                            Type button 
+                                                -   submit
+                                                - reset
+                                7               - button 
+                    - label     : menandai elemen input
+            -->
+
+    <form >
+        <label for="username">username :</label> <!-- username : label-->
+        <input type="text" id="username">
+        <br><br>
+        <label for="password">password :</label>
+        <input type="password" id="password">
+        <br><br>
+        <input type="radio" id="pria" name="jeniskelamin"><label for="pria">pria</label>
+        <input type="radio" id="wanita" name="jeniskelamin"><label for="wanita">wanita</label>
+        <br><br>
+        <input type="checkbox" id="penyanyi"><label for="penyanyi">penyanyi</label>
+        <input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+        <input type="checkbox" id="coding"><label for="coding">coding</label>
+        <br><br>
+        <input type="submit" value="kirim">
+        <button type="submit">kirim</button>
+
+    </form>
+
+    <br>-------- PENULISAN TEXT AREA ------------
+    <!-- Penulisan textarea -->
+    <br><br>
+    <select >
+        <option>Malang</option>
+        <option>Bojonegoro</option>
+        <option>Surabaya</option>
+    </select>
+
+    <table border="1" cellspacing="0" celladding="">
+        <tr>
+            <td><label for="username">username : </label></td>
+            <td><input type="text" id="username"></td>
+        </tr>
+        <tr>
+            <td><label for="password">password</label></td>
+            <td><input type="password" id="password"></td>
+        </tr>
+        <tr style="text-align:center;">
+            <td colspan="2"><label for="pria">pria</label><input type="radio" id="pria" name="jeniskelamin"><label for="wanita">wanita</label><input type="radio" id="wanita" name="jeniskelamin"></td>
+        </tr>
+        <tr style="text-align:center;">
+            <td colspan="2"><input type="checkbox" id="penyanyi"><label for="penyanyi">penyanyi</label>
+                <input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label></td>
+        </tr>
+        <tr>
+            <td><label for="kota">Kota</label></td>
+            <td>
+                <select  name="kota" id="kota">
+                    <option>Malang</option>
+                    <option>Bojonegoro</option>
+                    <option>Surabaya</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td> Alasan masuk ke SMK Telkom</td>
+            <td>
+                <textarea name="Alasan" id="" cols="30" rows="10"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2"><button type="submit">kirim</button></td>
+        </tr>
+    </table>
+            
+    <br>----------- PENULISAN IFRMAE --------------
+    <iframe src="https://id.wikipedia.org/wiki/Halaman_Utama" frameborder="1" width="600" height="200"></iframe>
+
+    <br><br><br>
+    <img src="img/Picture1.png" alt="">
+</body>
+
+</html>
